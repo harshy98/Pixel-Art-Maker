@@ -1,0 +1,72 @@
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    font-family: Bookman sans-serif;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: Helvetica;
+    text-decoration: underline;
+    text-shadow: 2px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+    line-height: 0;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font: 13px sans-serif
+}
+
+#submit{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+body {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: rgba(128,128,128,0.2);
+}
+p{
+    line-height: 0;
+}
